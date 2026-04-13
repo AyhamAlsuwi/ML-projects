@@ -46,7 +46,7 @@ To ensure reliability, a **95% Confidence Interval** was calculated using Scipy 
 
 | Metric | Value | 95% Confidence Interval |
 | :--- | :--- | :--- |
-| **Final Test MAPE** | 0.127% | 0.134% to 0.143% |
+| **Final Test MAPE** | 0.138% | 0.134% to 0.143% |
 | **Final Test RMSE** | $148,929 | $128,460 to $199,182 |
 
 This confirms the model generalizes well to unseen King County housing data within statistically significant bounds.
