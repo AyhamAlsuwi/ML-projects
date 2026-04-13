@@ -56,10 +56,10 @@ To ensure the model's reliability in production, a 95% Confidence Interval was c
 
 Final Test MAPE: 0.127%
 
-95% Confidence Interval: [0.134%, 0.143%]
+95% Confidence Interval: 0.134% to 0.143%
 
 Final Test RMSE: $148,929
 
-95% Confidence Interval: [$128,460, $199,182]
+95% Confidence Interval: $128,460 to $199,182
 
 This confirms the model generalizes well to unseen King County housing data within statistically significant bounds.
