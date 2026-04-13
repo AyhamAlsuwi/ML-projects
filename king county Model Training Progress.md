@@ -33,6 +33,9 @@ Conducted extensive tuning using `RandomizedSearchCV` and `GridSearchCV`.
 
 ### Iteration 3: Geo-Cluster Optimization (V3) — **Winner**
 Refined the KMeans cluster count and ran a deeper randomized search. 
+* **Training MAPE:** 0.118
+* **Testing MAPE:** 0.138
+
 > This V3 Random Forest was selected as the final production model: `king_county_housing_model_best_RF.pkl`.
 
 ### Iteration 4 & 5: Alternative Approaches
@@ -46,7 +49,7 @@ To ensure reliability, a **95% Confidence Interval** was calculated using Scipy 
 
 | Metric | Value | 95% Confidence Interval |
 | :--- | :--- | :--- |
-| **Final Test MAPE** | 0.138% | 0.134% to 0.143% |
+| **Final Test MAPE** | 0.138 | 0.134 to 0.143 |
 | **Final Test RMSE** | $148,929 | $128,460 to $199,182 |
 
 This confirms the model generalizes well to unseen King County housing data within statistically significant bounds.
