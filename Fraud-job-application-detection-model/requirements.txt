@@ -1,0 +1,11 @@
+# ==========================================
+# Python Version Required: 3.12.8
+# (Ensure your server runs this exact minor version, e.g., 3.10.x)
+# ==========================================
+
+scikit-learn==1.5.1
+xgboost==3.2.0
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+joblib==1.4.2
